@@ -1,59 +1,6 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "ng2-dropdown-treeview@^0.1.4",
-        "scope": null,
-        "escapedName": "ng2-dropdown-treeview",
-        "name": "ng2-dropdown-treeview",
-        "rawSpec": "^0.1.4",
-        "spec": ">=0.1.4 <0.2.0",
-        "type": "range"
-      },
-      "/home/srijan/Desktop/sealedair-intelli"
-    ]
-  ],
-  "_from": "ng2-dropdown-treeview@>=0.1.4 <0.2.0",
-  "_id": "ng2-dropdown-treeview@0.1.4",
-  "_inCache": true,
-  "_location": "/ng2-dropdown-treeview",
-  "_nodeVersion": "6.9.2",
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/ng2-dropdown-treeview-0.1.4.tgz_1485244624247_0.7975400870200247"
-  },
-  "_npmUser": {
-    "name": "leovo2708",
-    "email": "leovo2708@gmail.com"
-  },
-  "_npmVersion": "3.10.9",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "ng2-dropdown-treeview@^0.1.4",
-    "scope": null,
-    "escapedName": "ng2-dropdown-treeview",
-    "name": "ng2-dropdown-treeview",
-    "rawSpec": "^0.1.4",
-    "spec": ">=0.1.4 <0.2.0",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/ng2-dropdown-treeview/-/ng2-dropdown-treeview-0.1.4.tgz",
-  "_shasum": "c99e458f8102b07d57d44e2909914f81fa53dd2c",
-  "_shrinkwrap": null,
-  "_spec": "ng2-dropdown-treeview@^0.1.4",
-  "_where": "/home/srijan/Desktop/sealedair-intelli",
-  "author": {
-    "name": "Leo Vo"
-  },
-  "bugs": {
-    "url": "https://github.com/leovo2708/ng2-dropdown-treeview/issues"
-  },
   "dependencies": {},
-  "description": "An Angular 2 checkable dropdown treeview component with multiple selection",
+  "description": "An Angular2 clickable dropdown accordian/treeview component with multiple selection",
   "devDependencies": {
     "@angular/common": "^2.4.4",
     "@angular/compiler": "^2.4.4",
@@ -110,7 +57,7 @@
     "tarball": "https://registry.npmjs.org/ng2-dropdown-treeview/-/ng2-dropdown-treeview-0.1.4.tgz"
   },
   "gitHead": "202b2b566303e7cb521ac9f7e5f80e45348fe758",
-  "homepage": "https://github.com/leovo2708/ng2-dropdown-treeview",
+  "homepage": "https://github.com/prajact/ng2-dropdown-multiple-treeview",
   "keywords": [
     "ng2",
     "dropdown",
@@ -124,7 +71,7 @@
   "license": "MIT",
   "main": "bundles/ng2-dropdown-treeview.js",
   "module": "index.js",
-  "name": "ng2-dropdown-treeview",
+  "name": "ng2-dropdown-treeview-multilevel-fork",
   "optionalDependencies": {},
   "peerDependencies": {
     "@angular/common": "^2.0.0",
@@ -135,7 +82,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leovo2708/ng2-dropdown-treeview.git"
+    "url": "https://github.com/prajact/ng2-dropdown-multiple-treeview.git"
   },
   "scripts": {
     "build": "webpack --config config/webpack.lib.js",
@@ -144,7 +91,6 @@
     "demo:prod": "webpack --config demo/config/webpack.prod.js --progress --profile --bail",
     "lint": "tslint \"src/**/*.ts\" -e \"src/**/*.d.ts\"",
     "ngc": "ngc -p tsconfig.json",
-    "prepublish": "npm run ngc && npm run build",
     "sass": "node-sass src -o src --output-style=expanded --indent-width=4",
     "test": "karma start config/karma.conf.js"
   },

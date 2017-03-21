@@ -52,10 +52,6 @@
     "zone.js": "^0.7.6"
   },
   "directories": {},
-  "dist": {
-    "shasum": "c99e458f8102b07d57d44e2909914f81fa53dd2c",
-    "tarball": "https://registry.npmjs.org/ng2-dropdown-treeview/-/ng2-dropdown-treeview-0.1.4.tgz"
-  },
   "gitHead": "202b2b566303e7cb521ac9f7e5f80e45348fe758",
   "homepage": "https://github.com/prajact/ng2-dropdown-multiple-treeview",
   "keywords": [
@@ -68,7 +64,6 @@
     "multiselect",
     "multiple selection"
   ],
-  "license": "MIT",
   "main": "bundles/ng2-dropdown-treeview.js",
   "module": "index.js",
   "name": "ng2-dropdown-treeview-multilevel-fork",

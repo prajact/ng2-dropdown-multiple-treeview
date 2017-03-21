@@ -123,12 +123,6 @@
   ],
   "license": "MIT",
   "main": "bundles/ng2-dropdown-treeview.js",
-  "maintainers": [
-    {
-      "name": "leovo2708",
-      "email": "leovo2708@gmail.com"
-    }
-  ],
   "module": "index.js",
   "name": "ng2-dropdown-treeview",
   "optionalDependencies": {},
